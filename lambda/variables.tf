@@ -26,5 +26,5 @@ variable "runtime" {
 
 variable "lambda_archive_prefix" {
   description = "path to lambdas archive"
-  default = "../lambdas"
+  default = "./lambdas"
 }
